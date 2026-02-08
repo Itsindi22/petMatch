@@ -1,0 +1,75 @@
+@import "tailwindcss";
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: #eef2ff;
+  color: #222;
+}
+
+/* HOME PAGE */
+.home {
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+/* HERO */
+.hero {
+  max-width: 1100px;
+  width: 100%;
+  background: #dbe4ff;
+  border-radius: 20px;
+  padding: 60px 40px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.hero-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-subtitle {
+  font-size: 16px;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+/* ILLUSTRATIONS */
+.hero-illustrations {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 24px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.hero-illustrations img {
+  width: 120px;
+  height: auto;
+}
+
+/* CTA TEXT */
+.hero-cta-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.hero-button {
+  background: #6c4eff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 36px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(108, 78, 255, 0.4);
+}
