@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "../Frontend/pages/home";
-import FindAPet from "../Frontend/pages/findAPet";
+
 
 export default function App() {
   return (
