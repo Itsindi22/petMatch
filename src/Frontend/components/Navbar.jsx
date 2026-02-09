@@ -18,7 +18,7 @@ export default function Navbar() {
         </Link>
 
         <Link
-          to="/find"
+          to="/Findapet"
           className="text-sm text-slate-700 hover:text-slate-900"
         >
           Find a Pet

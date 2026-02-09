@@ -7,7 +7,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/findapet" element={<FindAPet />} />
+      <Route path="FindAPet" element={<FindAPet />} />
     </Routes>
   );
 }
